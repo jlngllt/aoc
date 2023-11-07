@@ -19,7 +19,7 @@ fn read_lines(filename: &str) -> Vec<u32> {
 }
 
 fn main() {
-    let mut res = read_lines("input.01");
+    let mut res = read_lines("input.txt");
     res.sort();
     res.reverse();
     for x in &res {
